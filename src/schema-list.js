@@ -1,5 +1,5 @@
-import {findWrapping, liftTarget, canSplit, ReplaceAroundStep} from "prosemirror-transform"
-import {Slice, Fragment, NodeRange} from "prosemirror-model"
+import {findWrapping, liftTarget, canSplit, ReplaceAroundStep} from "@jimpick/prosemirror-transform"
+import {Slice, Fragment, NodeRange} from "@jimpick/prosemirror-model"
 
 const olDOM = ["ol", 0], ulDOM = ["ul", 0], liDOM = ["li", 0]
 
